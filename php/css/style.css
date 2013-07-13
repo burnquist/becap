@@ -69,8 +69,8 @@ body {
 
 
 .heading h1, h2, h3, h4, h5, h6 {
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 20%;
+	margin-left: 20%;
 	background: #fff;
 	display: inline;
 	padding-top: 5px;
