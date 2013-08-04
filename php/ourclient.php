@@ -1,576 +1,395 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Ourclient |Heat Transfer Solution (BECAP)</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-5" />
-<link rel="stylesheet" type="text/css" href="style.css" />
-
-	<script src="jquery-1.9.1.js"></script>
-	<script src="ui/jquery.ui.effect.js"></script>
-	<script src="ui/jquery.ui.menu.js"></script>
-	<link rel="stylesheet" href="becap.css">
-	<link href="css/flick/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-    <script src="js/jquery-ui-1.10.3.custom.js"></script>
-
-<script>
-	$(function() {
-		$( "#menu" ).menu();
-		
-	});
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Our Client | Heat Transfer Solution</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>	
+<script type="text/javascript" src="js/scroll.js"></script>
+<link rel="stylesheet" href="css/img-slider.css">
+<style>
+   /* Begin Navigation Bar Styling */
+   #nav {
+      width: 100%;
+      float: left;
+      margin: -50px 0 35px 300px;
+      padding: 0px;
+      list-style: none;
+      background-color: #fff;
+      border-bottom: 7px solid red; 
+      border-top: 0px solid #ccc; 
+	  }
+   #nav li {
+      float: left;
+	  indent:3em;		}
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: red;
+      border-right: 1px solid #ccc; }
+   #nav li a:hover {
+      color: white;
+      background-color: red; }
+   /* End navigation bar styling. */
+   
+   /* This is just styling for this specific page. */
+   body {
+      background-color: #fff;position: absolute; 
+      font: small/1.3 Arial, Helvetica, sans-serif; }
+   #wrap {
+      width: 645px;
+      margin: 0 0 0 18em;
+      background-color: #fff; }
+   h1 {
+      font-size: 1.5em;
+      color: #fff;
+      background-color: #069;
+      margin: 6em 0 -6em 0; }
 	
 
-	</script>
+#divLine
+{
+	margin-left: 275px;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: auto;
+	font-family: Verdana,sans;
+    font-size: 18px;
+	color: #1C2A47;
+	width:  906px;
+	border-top: solid 3px #B3B3B3;
+	font-weight: strong;
+}
+.divfooter
+{
+	margin-left: 22em;
+    margin-right: auto;
+    margin-top: 10em;
+    margin-bottom: auto;
+	font-family: Tahoma, Verdana, Sans;
+    font-size: 12px;
+	color: #1C2A47;
+	width: 920px;
+	border-top: solid 1px #B3B3B3;
+	font-weight: bold;
+}
 
+ #content {
+	margin: 40px 0 0 275px;
+	width:805px;
+	padding: 0 50px 50px;
+	background-color: #fff;
+	}
 	
-
-           
-	<style>
-	.ui-menu {
-	background:#10335a;
-	width: 130px;  
-    font: 11px;
-	border:none;
+ #content_1 {
+      margin-left:40px;
+	  font-size: 17px;
+	  font-weight: strong;
+	  font-family: calibri, Verdana, Sans;
+	  }
+	  
+#container-right {
+      margin-left:37em;
+	  margin-top:-390px;
+	  font-size: 17px;
+	  font-weight: strong;
+	  font-family: calibri, Verdana, Sans;
+	  }
+#con-box {
+	padding:0px;
+	margin:5px 0 0 -35px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
-	}
-	.margin{
-	margin:0em 3em 1em 35em;
-	}
+}	
+#con-box1 {
+	padding:0px;
+	margin:-313px 0 0 190px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
-	.width-col1{
-	width: 162px;
-	margin:5px 10px 5px 20px;
-	}
-	.width-col2{
-	width: 162px;
-	margin:-225px 10px 5px 180px;
-	}
-	.width-col3{
-	width: 162px;
-	margin:10px 5px 5px 20px;
-	}
-	.width-col4{
-	width: 162px;
-	margin:-225px 5px 5px 180px;
-	}
-	.width-col5{
-	width: 162px;
-	margin:15px 5px 5px 20px;
-	}
-	.width-col6{
-	width: 162px;
-	margin:-225px 5px 5px 180px;
-	}
-	.width-col7{
-	width: 162px;
-	margin:15px 5px 5px 20px;
-	}
-	.width-col8{
-	width: 162px;
-	margin:-225px 5px 5px 180px;
-	}
-	.width-col9{
-	width: 162px;
-	margin:20px 5px 5px 20px;
-	}
-	.width-col10{
-	width: 350px;
-	margin:5px 10px 5px 20px;
-	}
-	.width-col11{
-	width: 350px;
-	margin:5px 10px 5px 20px;
-	}
-	.shadow {
-	-moz-box-shadow:    0px 0px 5px 1px #ccc;
-	-webkit-box-shadow: 0px 0px 5px 1px #ccc;
-	box-shadow:         0px 0px 5px 1px #ccc;
-	}
-	.one-edge-shadow {
-	-webkit-box-shadow: 0 0px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-	}
+}
+#con-box2 {
+	padding:0px;
+	margin:-313px 0 0 415px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
+#con-box3 {
+	padding:0px;
+	margin:-313px 0 0 645px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
 
-	.google{
-	margin:0em 0em 5px 2em;
-	}
+#con-box4 {
+	padding:0px;
+	margin:40px 0 0 -35px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}	
+#con-box5 {
+	padding:0px;
+	margin:-313px 0 0 190px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
+#con-box6 {
+	padding:0px;
+	margin:-313px 0 0 415px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
+#con-box7 {
+	padding:0px;
+	margin:-313px 0 0 645px;
+	width:200px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
 
-	</style>
+#con-box8 {
+	padding:0px;
+	margin:40px 0 0 -40px;
+	width:430px;
+	height:140px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
+#con-box9 {
+	padding:0px;
+	margin:-142px 0 0 412px;
+	width:430px;
+	height:140px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
 
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-	<script>
-	$(function() {
-		
-		$( "#accordion" ).accordion();
+
+
+
+#box
+{
+margin:-2px 0 0 -4px;
+width:268px;
+-moz-column-count:4; /* Firefox */
+-webkit-column-count:4; /* Safari and Chrome */
+	column-count:4;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+}
+#box2
+{
+margin:-13px 0 0 16em;
+width:268px;
+-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+}
+
+	  .container-right-2 {
+      margin:11px 0 0 20px;
+	  font-size: 17px;
+	  font-weight: strong;
+	  font-family: calibri, Verdana, Sans;
+	  }	  
+	    
+	  
+	  .mrg{
+	  margin:2px
+	  }
+	.mrg2{
+	   margin:-280px 0 0 200px;
+	  }	
+	  
+	  
+	   
+	#kanan1 { height:150px; 
+				padding:10px;
+				background-color:#f4f4f4;
+				float:left;
+				width:247px; 
+				margin-top:0px;
+				border-bottom:2px  solid #B3B3B3; 
+				border-top: 2px solid #B3B3B3; 
+				border-left:2px solid #B3B3B3;
+				border-right:2px solid #B3B3B3;}   
 				
-		var availableTags = [
-			"ActionScript",
-			"AppleScript",
-			"Asp",
-			"BASIC",
-			"C",
-			"C++",
-			"Clojure",
-			"COBOL",
-			"ColdFusion",
-			"Erlang",
-			"Fortran",
-			"Groovy",
-			"Haskell",
-			"Java",
-			"JavaScript",
-			"Lisp",
-			"Perl",
-			"PHP",
-			"Python",
-			"Ruby",
-			"Scala",
-			"Scheme"
-		];
-		$( "#autocomplete" ).autocomplete({
-			source: availableTags
-		});
-		
-
-		
-		$( "#button" ).button();
-		$( "#radioset" ).buttonset();
-		
-
-		
-		$( "#tabs" ).tabs();
-		
-
-		
-		$( "#dialog" ).dialog({
-			autoOpen: false,
-			width: 400,
-			buttons: [
-				{
-					text: "Ok",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				},
-				{
-					text: "Cancel",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				}
-			]
-		});
-
-		// Link to open the dialog
-		$( "#dialog-link" ).click(function( event ) {
-			$( "#dialog" ).dialog( "open" );
-			event.preventDefault();
-		});
-		
-
-		
-		$( "#datepicker" ).datepicker({
-			inline: true
-		});
-		
-
-		
-		$( "#slider" ).slider({
-			range: true,
-			values: [ 17, 67 ]
-		});
-		
-
-		
-		$( "#progressbar" ).progressbar({
-			value: 20
-		});
-		
-
-		// Hover states on the static widgets
-		$( "#dialog-link, #icons li" ).hover(
-			function() {
-				$( this ).addClass( "ui-state-hover" );
-			},
-			function() {
-				$( this ).removeClass( "ui-state-hover" );
-			}
-		);
-	});
-	</script>	
-	<script  type="text/javascript">
-     $("a.link").on("click",function(){
-         window.open('www.yourdomain.com','_blank');
-     });
-</script>
+	#kanan2 { height:150px; 
+				padding:10px;
+				background-color:#f4f4f4;
+				float:left;
+				width:244px; 
+				margin-left:10px;
+				border-bottom:2px  solid #B3B3B3; 
+				border-top: 2px solid #B3B3B3; 
+				border-left:2px solid #B3B3B3;
+				border-right:2px solid #B3B3B3;} 
+				
+	}
+	a:link {
 	
+	color:#0d0c0c;
+
+	}
+
+	a:visited {
 	
-
-		
+	color:#615b5b;
 	
-	<script>
-	$(function() {
-		// run the currently selected effect
-		function runEffect() {
-			// get effect type from
-			var selectedEffect = $( "#effectTypes" ).val();
-
-			// most effect types need no options passed by default
-			var options = {};
-			// some effects have required parameters
-			if ( selectedEffect === "scale" ) {
-				options = { percent: 0 };
-			} else if ( selectedEffect === "transfer" ) {
-				options = { to: "#button", className: "ui-effects-transfer" };
-			} else if ( selectedEffect === "size" ) {
-				options = { to: { width: 200, height: 60 } };
-			}
-
-			// run the effect
-			$( "#effect" ).effect( selectedEffect, options, 500, callback );
-		};
-
-		// callback function to bring a hidden box back
-		function callback() {
-			setTimeout(function() {
-				$( "#effect" ).removeAttr( "style" ).hide().fadeIn();
-			}, 1000 );
-		};
-
-		// set effect from select menu value
-		$( "#button" ).click(function() {
-			runEffect();
-			return false;
-		});
-	});
-	</script>
-	<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+	}
+	a:hover {
+	color: #0d0c0c;
 	
-	
+	}
+</style>
 </head>
+
 <body>
+<div id="wrap">
+   
+   <img style="margin:0em 0em -2px 3em;" src="logo/logo-becap.png" alt="Becap"></a>
+   <!-- Here's all it takes to make this navigation bar. -->
+   <ul id="nav">
+     <li><a style="background-color:red;color:white;" href="index.php">Home</a></li>
+		<li><a  href="">Products</a></li>
+        <li><a  href="">Services</a>	</li>
+		<li><a  href="ourclient.php">Our Clients</a></li>
+		<li><a  href="">Achievements</a></li>
+		<li><a  href="">Contact Us</a></li>
+        <li><a  href="">Career</a></li>	
+   </ul>
+   
+   
+  	</div>
+	<div id="divLine">
+	
+	</div>
+	<p style="color:red;font-size:120%;float:left;margin-left:295px; font-weight: strong;"> <b>OIL & REFENERY </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:91px; font-weight: strong;"> <b>GAS PRODUCERS </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:91px; font-weight: strong;"> <b> PETROCHEMICAL </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:97px; font-weight: strong;"> <b>PULP AND PAPERS </b></p>
+	
+	<div id="content">
+	
+	</br>
+	
+	<div id="con-box">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/oil-gas.jpg" alt="Becap"></a></p>
+	
+	</div>
+	
+	<div id="con-box1">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/gas-producers.jpg" alt="Becap"></a></p>
+	
+	</div>
+	
+	<div id="con-box2">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/petrochemical.jpg" alt="Becap"></a></p>
+	
+	</div>
+	
+	<div id="con-box3">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/paper.jpg" alt="Becap"></a></p>
+	
+	</div>
+	</br>
 
-	<div id="header">
-		<a href="#"><img src="images/logo-becap.JPG" alt="" width="318" height="170" class="logo" /></a>
-		<div class="margin">
-			<ul id="menu">
-			<li class="ui-state-disabled"><a href="#"></a></li>
-			<li><a href="index.php" name="home">.:: Home</a></li>
-			<li><a href="product.php" id="product">.:: Product</a></li>
-			<li><a href="service.php">.:: Service</a></li>
-			<li><a href="ourclient.php">.:: Our Client</a></li>
-			<li><a href="Achievement.php">.:: Achievements</a></li>
-			<li><a href="contactus.php">.:: Contact Us</a></li>
-			
-		</ul>
-		
-		</div>
-		<?php
-		$home= "home";
-		$product= "product";
-		$service= "service";
-		$ourclient= "ourclient";
-		$contactus= "contact us";
-		$email="email";
-		?>
-		</div>
-		<div id="content">
-		<div id="left">
-		
-			<p>
-			<strong>Our Client :</strong>
-			</p>
-		
-			
-			<p style="margin-top:-10px;text-align: Justify;">
-			<strong> </strong> 
-			</p>
-			<p>
-			
-			</p>
-			<p style="margin-top:-10px;text-align: Justify;">
-			<strong>
-			<ul class="list">
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				
-			</ul> </strong> </br> 
-			</p>
-			
-			<p style="margin-top:-10px;text-align: Justify;">
-			
-			</p>
-			
-			
-			
-			
-			
-			
-			<p style="margin-top:1180px;"> <img src="images/logo-footer.jpg" alt="" width="180" height="50" /></p>
-			
-		</div>
-		<div id="right">
-		<!----  product  !------->
-	<div class="width-col1">	
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 class="ui-widget-header ui-corner-all">Oil & Refenery</h3>
-		<p style="margin:5px 5px 3px 8px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/oil-gas.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-			
-		</p>
-	</div>
-	</div></br>
-	<div class="width-col2">
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 style="color:#bbbbE;"class="ui-widget-header ui-corner-all">Gas Producers</h3>
-		<p style="margin:5px 5px 3px 5px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/gas-producers.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-
-		</p>
-	</div>
-	</div></br>
+	
+	<p style="color:red;font-size:120%;float:left;margin-left:-30px; font-weight: strong;"> <b>PALM OIL INDUSTRY </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:65px; font-weight: strong;"> <b>CEMENT</b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:160px; font-weight: strong;"> <b> POWER INDUSTRY </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:92px; font-weight: strong;"> <b>FERTILIZER </b></p>
 	
 	
+	<div id="con-box4">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/palm.jpg" alt="Becap"></a></p>
 	
 	</div>
 	
-	</div>    
-	<!----  end product  !------->
-			<!----  product  !------->
-	<div class="width-col3">	
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 class="ui-widget-header ui-corner-all">Petrochemichal</h3>
-		<p style="margin:5px 5px 3px 8px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/petrochemical.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-			
-		</p>
-	</div>
-	</div></br>
-	<div class="width-col4">
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 style="color:#bbbbE;"class="ui-widget-header ui-corner-all">Pulp & Paper</h3>
-		<p style="margin:5px 5px 3px 5px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/paper.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-
-		</p>
-	</div>
-	</div></br>
-	
-	
+	<div id="con-box5">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/cement.jpg" alt="Becap"></a></p>
 	
 	</div>
 	
-	</div>    
-	<!----  end product  !------->
-	
-	
-		<!----  product  !------->
-	<div class="width-col5">	
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 style="color:#bbbbE;"class="ui-widget-header ui-corner-all">Palm Oil & Industry</h3>
-		<p style="margin:5px 5px 3px 8px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/palm.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-			
-		</p>
-	</div>
-	</div></br>
-	<div class="width-col6">
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 style="color:#bbbbE;"class="ui-widget-header ui-corner-all">Cement</h3>
-		<p style="margin:5px 5px 3px 5px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/cement.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-
-		</p>
-	</div>
-	</div></br>
-	
-	
+	<div id="con-box6">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/power.jpg" alt="Becap"></a></p>
 	
 	</div>
 	
-	</div>    
-	<!----  end product  !------->
-		<!----  product  !------->
-	<div class="width-col7">	
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 class="ui-widget-header ui-corner-all">Power Industry</h3>
-		<p style="margin:5px 5px 3px 8px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/power.jpg" alt="" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-			
-		</p>
-	</div>
-	</div></br>
-	<div class="width-col8">
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 style="color:#bbbbE;"class="ui-widget-header ui-corner-all">Fertilizer</h3>
-		<p style="margin:5px 5px 3px 5px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/fertilizer.jpg" alt="fertlizer" width="150" height="180" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-
-		</p>
-	</div>
-	</div></br>
-	
-	
+	<div id="con-box7">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/fertilizer.jpg" alt="Becap"></a></p>
 	
 	</div>
 	
-	</div>    
-	<!----  end product  !------->
-	<div class="width-col10">	
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 class="ui-widget-header ui-corner-all">Beverage and Food</h3>
-		<p style="margin:5px 5px 3px 8px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/beverageandfood.jpg" alt="" width="340" height="90" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-			
-		</p>
+	<br>
+	<p style="color:red;font-size:120%;float:left;margin-left:-30px; font-weight: strong;"> <b>FOOD AND BEVERAGE </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:275px; font-weight: strong;"> <b>LABORATORY SERVICE</b></p>
+	<div id="con-box8">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/food.jpg" alt="Becap"></a></p>
 	</div>
-	</div>
-	</div></br>
-			<!----  kanan  !------->
-		<!----  end product  !------->
-	<div class="width-col10">	
-	<div class="toggler">
-	<div id="effect" class="ui-widget-content ui-corner-all">
-		<h3 class="ui-widget-header ui-corner-all">Laboratory Service</h3>
-		<p style="margin:5px 5px 3px 8px; font-size:12px;">
-			
-		</p> 
-		
-		<p style="margin:5px 5px 5px 5px;">
-			<div class="shadow" style="width:150px; margin:5px 5px 5px 5px;">
-			<img class="shadow" src="ourclient/lab-service.jpg" alt="" width="340" height="90" />
-			</div>
-		</p>
-		<p style="margin:5px 5px 5px 5px;font-style:italic;">
-			
-		</p>
-	</div>
-	</div>
-	</div></br>
-		
 	
-			<!----  kanan  !------->
-			<div class="second">
-				
-			</div>
-			<!----  end kanan  !------->
-			</br></br>
-			<div style="margin-left:25px;"class="fb-like" data-href="http://localhost/industrial/index.php" data-send="true" data-width="100" data-show-faces="true"></div>
-			<div class="google">
-			<div class="g-plusone" data-annotation="inline" data-width="90"></div>
-			</div>
-		</div>
+	<div id="con-box9">
+	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/lab-service.jpg" alt="Becap"></a></p>
 	</div>
-	 
-	<div id="footer">
-		<div class="copy">
-			Copyright &copy; 2013 Heat Transfer Solution<br /> All Rights Reserved<br />
-			<a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
-		</div>
-		<div class="dots">
-			<span>PT. Benua Cakra Petrolindo</span>
-			<p>Kompleks Roxy Mas Blok D5 No. 3<br /> Jakarta - 14250</p>
-		</div>
-		<div class="tel">
-			<span>Tel/Fax : +62(800)123-4567<br /> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp; +62(800)123-1234</span>
-			<p >&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; E-mail : <a href="#">becap@becap.com</a></p>
-		</div>
+	
 	</div>
+	<!------footer-------!><!---->
+	
+	
+	
+	<p style=" margin: 3em 0 0 0;float:right;font-size:95%;color #485551 text-indent:50px;"><b style="color:#077759; text-indent:50px;">PT. Benua Cakra Petrolindo</b></br> 
+	Kompleks Roxy Mas Blok D5 No. 3<br>
+	Jakarta 10150, Indonesia<br>
+	Email:becap@becap.com<br>
+	</p>
+	<p style=" margin: 3em 0 0 21em;float:left;font-size:100%;color #485551;"><img style="width:200px;"src="logo/logo-footer.jpg"  /> <br></p>
+	
+	<div class="divfooter">
+	<p style="float:left;">Copyright@2013 PT. Benua Cakra Petrolindo</p>
+	<p style="float:right;"><a style="text-decoration:none;" href="">Home</a> | <a  style="text-decoration:none;" href="">Contact Us</a></p>	<br>
+</div>
 </body>
 </html>

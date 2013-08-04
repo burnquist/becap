@@ -1,327 +1,346 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Home |Heat Transfer Solution (BECAP)</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-5" />
-<link rel="stylesheet" type="text/css" href="style.css" />
-
-	<script src="jquery-1.9.1.js"></script>
-
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Home | Heat Transfer Solution</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>	
+<script type="text/javascript" src="js/scroll.js"></script>
+<link rel="stylesheet" href="css/img-slider.css">
+<style>
+   /* Begin Navigation Bar Styling */
+   #nav {
+      width: 100%;
+      float: left;
+      margin: -50px 0 35px 300px;
+      padding: 0px;
+      list-style: none;
+      background-color: #fff;
+      border-bottom: 7px solid red; 
+      border-top: 0px solid #ccc; 
+	  }
+   #nav li {
+      float: left;
+	  indent:3em;		}
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: red;
+      border-right: 1px solid #ccc; }
+   #nav li a:hover {
+      color: white;
+      background-color: red; }
+   /* End navigation bar styling. */
+   
+   /* This is just styling for this specific page. */
+   body {
+      background-color: #fff;position: absolute; 
+      font: small/1.3 Arial, Helvetica, sans-serif; }
+   #wrap {
+      width: 645px;
+      margin: 0 0 0 18em;
+      background-color: #fff; }
+   h1 {
+      font-size: 1.5em;
+      color: #fff;
+      background-color: #069;
+      margin: 6em 0 -6em 0; }
 	
+
+#divLine
+{
+	margin-left: 2em;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: auto;
+	font-family: Verdana,sans;
+    font-size: 18px;
+	color: #1C2A47;
+	width: 141%;
+	border-top: solid 2px #B3B3B3;
+	font-weight: strong;
+}
+.divfooter
+{
+	margin-left: 22em;
+    margin-right: auto;
+    margin-top: 17em;
+    margin-bottom: auto;
+	font-family: Tahoma, Verdana, Sans;
+    font-size: 12px;
+	color: #1C2A47;
+	width: 920px;
+	border-top: solid 1px #B3B3B3;
+	font-weight: bold;
+}
+
+ #content {
+	padding: 0 50px 50px;
+	background-color: #ccc;
+	}
 	
-	<script src="ui/jquery.ui.menu.js"></script>
-	<link rel="stylesheet" href="becap.css">
-	<link href="css/flick/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-    <script src="js/jquery-ui-1.10.3.custom.js"></script>
-
-<script>
-	$(function() {
-		$( "#menu" ).menu();
-		
-	});
+ #content_1 {
+      margin-left:40px;
+	  font-size: 17px;
+	  font-weight: strong;
+	  font-family: calibri, Verdana, Sans;
+	  }
+	  
+#container-right {
+      margin-left:37em;
+	  margin-top:-390px;
+	  font-size: 17px;
+	  font-weight: strong;
+	  font-family: calibri, Verdana, Sans;
+	  }
+#con-box {
+	padding:0px;
+	margin:-5px 0 0 -2px;
+	width:546px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
-
-	</script>
-
+}	
+#con-box1 {
+	padding:0px;
+	margin:-2px 0 0 -4px;
+	width:270px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
+}
+#con-box2 {
+	padding:0px;
+	margin:16px 0 0 16em;
+	width:268px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
 
-           
-	<style>
-	.ui-menu {
-	background:#10335a;
-	width: 130px; 
-    font: 11px;
-	border:none;
+#box
+{
+margin:-2px 0 0 -4px;
+width:268px;
+-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+}
+#box2
+{
+margin:-13px 0 0 16em;
+width:268px;
+-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+}
+
+	  .container-right-2 {
+      margin:11px 0 0 20px;
+	  font-size: 17px;
+	  font-weight: strong;
+	  font-family: calibri, Verdana, Sans;
+	  }	  
+	    
+	  
+	  .mrg{
+	  margin:2px
+	  }
+	.mrg2{
+	   margin:-280px 0 0 200px;
+	  }	
+	  
+	  
+	   
+	#kanan1 { height:150px; 
+				padding:10px;
+				background-color:#f4f4f4;
+				float:left;
+				width:247px; 
+				margin-top:0px;
+				border-bottom:2px  solid #B3B3B3; 
+				border-top: 2px solid #B3B3B3; 
+				border-left:2px solid #B3B3B3;
+				border-right:2px solid #B3B3B3;}   
+				
+	#kanan2 { height:150px; 
+				padding:10px;
+				background-color:#f4f4f4;
+				float:left;
+				width:244px; 
+				margin-left:10px;
+				border-bottom:2px  solid #B3B3B3; 
+				border-top: 2px solid #B3B3B3; 
+				border-left:2px solid #B3B3B3;
+				border-right:2px solid #B3B3B3;} 
+				
+	}
+	a:link {
+	
+	color:#0d0c0c;
+
+	}
+
+	a:visited {
+	
+	color:#615b5b;
 	
 	}
-.margin{
-margin:0em 3em 1em 35em;
-
-
-}
-.width{
-width: 420px;
-margin:0px 3px 0px 2px;
-}
-
-.google{
-	margin:0em 0em 5px 2em;
-	}
-
-
-	</style>
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-	<script>
-	$(function() {
-		
-		$( "#accordion" ).accordion();
-		
-
-		
-		var availableTags = [
-			"ActionScript",
-			"AppleScript",
-			"Asp",
-			"BASIC",
-			"C",
-			"C++",
-			"Clojure",
-			"COBOL",
-			"ColdFusion",
-			"Erlang",
-			"Fortran",
-			"Groovy",
-			"Haskell",
-			"Java",
-			"JavaScript",
-			"Lisp",
-			"Perl",
-			"PHP",
-			"Python",
-			"Ruby",
-			"Scala",
-			"Scheme"
-		];
-		$( "#autocomplete" ).autocomplete({
-			source: availableTags
-		});
-		
-
-		
-		$( "#button" ).button();
-		$( "#radioset" ).buttonset();
-		
-
-		
-		$( "#tabs" ).tabs();
-		
-
-		
-		$( "#dialog" ).dialog({
-			autoOpen: false,
-			width: 400,
-			buttons: [
-				{
-					text: "Ok",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				},
-				{
-					text: "Cancel",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				}
-			]
-		});
-
-		// Link to open the dialog
-		$( "#dialog-link" ).click(function( event ) {
-			$( "#dialog" ).dialog( "open" );
-			event.preventDefault();
-		});
-		
-
-		
-		$( "#datepicker" ).datepicker({
-			inline: true
-		});
-		
-
-		
-		$( "#slider" ).slider({
-			range: true,
-			values: [ 17, 67 ]
-		});
-		
-
-		
-		$( "#progressbar" ).progressbar({
-			value: 20
-		});
-		
-
-		// Hover states on the static widgets
-		$( "#dialog-link, #icons li" ).hover(
-			function() {
-				$( this ).addClass( "ui-state-hover" );
-			},
-			function() {
-				$( this ).removeClass( "ui-state-hover" );
-			}
-		);
-	});
-	</script>	
-	<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+	a:hover {
+	color: #0d0c0c;
 	
+	}
+</style>
 </head>
+
 <body>
-
-	<div id="header">
-		<a href="#"><img src="images/logo-becap.JPG" alt="" width="318" height="170" class="logo" /></a>
-		<div class="margin">
-			<ul id="menu">
-			<li class="ui-state-disabled"><a href="#"></a></li>
-			<li><a href="index.php" name="home">.:: Home</a></li>
-			<li><a href="product.php" id="product">.:: Product</a></li>
-			<li><a href="service.php">.:: Service</a></li>
-			<li><a href="ourclient.php">.:: Our Client</a></li>
-			<li><a href="achievement.php">.:: Achievements</a></li>
-			<li><a href="contactus.php">.:: Contact Us</a></li>
-			
-		</ul>
+<div id="wrap">
+   
+   <img style="margin:0em 0em -2px 3em;" src="logo/logo-becap.png" alt="Becap"></a>
+   <!-- Here's all it takes to make this navigation bar. -->
+   <ul id="nav">
+     <li><a style="background-color:red;color:white;" href="">Home</a></li>
+		<li><a  href="">Products</a></li>
+        <li><a  href="">Services</a>	</li>
+		<li><a  href="ourclient.php">Our Clients</a></li>
+		<li><a  href="">Achievements</a></li>
+		<li><a  href="">Contact Us</a></li>
+        <li><a  href="">Career</a></li>	
+   </ul>
+   
+   <div id="image-rotate">
+		<div id="main-image">
 		
 		</div>
-		<?php
-		$home= "home";
-		$product= "product";
-		$service= "service";
-		$ourclient= "ourclient";
-		$contactus= "contact us";
-		$email="email";
-		?>
+		<div id="side-images">
+			<div id="up-arrow"><img src="images/up.png" alt="" /></div>
+				<div id="image-1"><a href="#"><img src="images/images-1.jpg" alt="" /><span><img src="images/1s.jpg" alt="" /></span></a></div>
+				<div id="image-2"><a href="#"><img src="images/images.jpg" alt="" /><span><img src="images/2s.jpg" alt="" /></span></a></div>
+				<div id="image-3"><a href="#"><img src="images/3.jpg" alt="" /><span><img src="images/3s.jpg" alt="" /></span></a></div>
+				<div id="image-4"><a href="#"><img src="images/4.jpg" alt="" /><span><img src="images/4s.jpg" alt="" /></span></a></div>
+				
+			<div id="down-arrow"><img src="images/down.png" alt="" /></div>
 		</div>
-		<div id="content">
-		<div id="left">
-			<img src="images/title1.gif" alt="" width="245" height="36" />
-			<p style="text-align: Justify">
-				We are company Specializing in energy conservation and heat transfer, We provide the customer with very highly
-					up to date heat transfer and effeciency equipment, provide solutions and services in the petrochemical, oil and gas industry
-			</p>
-			<p style="margin-top:-10px;text-align: Justify;">
-			<strong>Our Vision </strong> </br> To Become a World Leader in Performance Maintenance Service Solutions, Achieving Benefit and Growing Together
-			</p>
-			
-			<p style="margin-top:-10px;text-align: Justify;">
-			<strong>Our Mision </strong> </br> Customer Satisfaction, Safety, Reliability and Benefit
-			</p>
-			
-			<img src="images/title2.gif" alt="" width="245" height="51" class="hr" />
-			
-			
-			<ul class="list">
-			
-				<li><a href="#">Refinery</a></li>
-				<li><a href="#">Oil And Gas</a></li>
-				<li><a href="#">Power</a></li>
-				<li><a href="#">Cement</a></li>
-				<li><a href="#">Fertilizer</a></li>
-				<li><a href="#">Gas Producers</a></li>
-				<li><a href="#">Food and Beverage</a></li>
-				<li><a href="#">Pulp & Papper</a></li>
-				<li><a href="#">Palm Oil Industry</a></li>
-			</ul>
-			
-			<p style="margin-top:5em;"> <img src="images/logo-footer.jpg" alt="" width="180" height="50" /></p>
-			
-		</div>
-		<div id="right">
-		
-	<div class="width">	
-<div id="accordion">
-
-	<h3>Home - <?php echo $home; ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp'; echo date("Y-m-d H:i:s"); ?></h3>
-	<div><b>Petrotest Test Equipment</b> &nbsp;&nbsp;&nbsp;&nbsp; <img style="align=right;" src="images/indonesia-flag.png" alt="indonesia" width="10" height="10" /> <br /><br /><br />
-	<p style=" margin-top : -2em; text-align:justify;font-family:Arial, Helvetica, Verdana, sans-serif; font-size:11px;"> <b>Petrotest</b> ranges of products are applied for Flammability, Distillation, Fuel Testing, Lubricating Testing, Greases, Bitumen & Wax Testing, Wax, Penetration & Texture Testing, and General Lab Equipment. All Petrotest equipment has a widely range application in petroleum testing and general lab according to ASTM, DIN, IP, ISO standard for the above testing.
-Please find attached some of  product brochures for your reference in choosing the equipment.</p> </br>
-
-	<p style=" font-style:italic; margin-top : -1em; font-family:Arial, Helvetica, Verdana, sans-serif; font-size:11px;"><b>Click here</b> <a style="  font-family:Arial-italic, Helvetica, Verdana, sans-serif; font-size:11px;color:blue;" href="petrotest.pdf">Petrotest</a><b> brosur</b></p>
+	</div>
+	<div id="divLine">
 	
 	</div>
-	<h3>CSMS Certificate from Pertamina</h3>
-	<div>
-	<p>Achievements</p></br>
-	<p style=" margin-top :-1em;"><img style="align=center;" src="images/csms-certificate.png" alt="indonesia" width="180" height="120" /></p></div>
-	<h3>Make Achoice To Your Succes</h3>
-	<div><img src="images/banner.jpg" alt="" width="370" height="150" /></div>
+	
+	<div id="content_1">
+	<p><b style="color:red;">About</b> <b style="color:#077759;">BECAP</b></p>
+	<p style=" color:#485551;font-size:100%;width:330px;">
+		We are company Specializing in energy conservation and heat transfer, We provide the customer with very highly
+	    up to date heat transfer and effeciency equipment, provide solutions and services in the petrochemical, oil and gas industry.
+	</p>
+	<p><b style="color:red;">Our Vision</b><p>
+	<p style=" color:#485551; margin-top:-10px;font-size:100%;width:330px;">
+		To Become a World Leader in Performance Maintenance Service Solutions, Achieving Benefit and Growing Together.
+	</p>
+	<p><b style="color:red;">Our Mision</b><p>
+	<p style=" color:#485551; margin-top:-10px;font-size:100%;width:330px;">
+		Customer Satisfaction, Safety, Reliability and Benefit.
+	</p>
+	
+   
 </div>
-</div>    
 
-			
-			
-			<div class="second">
-				<img src="images/title4.gif" alt="" width="131" height="27" />
-				<p style="margin-bottom:25px;"><strong>Mechanical Heat Transfer Device</strong></p>
-				
-				<div class="border">
-					<p style="margin:-15px 0 -5px;"><strong>* Petrolium Test Instrument </strong></p>
-					<ul class="list">
-			
-					<li><a href="#">Flammability</a></li>
-					<li><a href="#">Destilation</a></li>
-					<li><a href="#">Fuel Testing</a></li>
-					<li><a href="#">Lubricants Testing</a></li>
-					<li><a href="#">Bitumen & Wax Testing</a></li>
-					<li><a href="#">Penetration Texture Testing</a></li>
-					<li><a href="#">General Web Equipment</a></li>
-					</ul>
-					<p><strong>* Soot Blower</strong></p>
-			
-					<ul class="list">
-					<li><a href="#"><strong>Cleaning Systems for Heating </br>and Reaction Surface</strong></a></li>
-					</ul>
-					
-					<p ><strong>* Combust on Equipment. </strong></p>
-					<ul class="list">
-			
-					<li><a href="#">Industrial Burner</a></li>
-					<li><a href="#">Flame Scanner.</a></li>
-				
-					</ul>
-					
-				</div>
-				
-				<div>
-					<p ><strong>* Gas Analyzer. </strong></p>
-			<ul class="list">
-			
-				<li><a href="#">Emissions Monitoring</a></li>
-				<li><a href="#">Speciality Gases and </br>Chemicals.</a></li>
-				<li><a href="#">Food and Beverage </br>and Monitoring.</a></li>
-				<li><a href="#">Air Separation.</a></li>
-				<li><a href="#">UPH Semiconductor MFR Powergenerator.</a></li>
-			</ul>
-			<p ><strong>Plant Performance & Effeciensi Assessment, Installation, Commisioning & Training, Calibration & Troubleshooting, Overhaul and Maintenance. </strong></p>
-			
-			</div>
-			</div>
-			</br></br>
-			
-			<div style="margin-left:25px;"class="fb-like" data-href="http://localhost/industrial/index.php" data-send="true" data-width="100" data-show-faces="true"></div></br>
-			<div class="google">
-			<div class="g-plusone" data-annotation="inline" data-width="90"></div>
-			</div>
-		</div>
+</div>
+
+	<div id="container-right">
+	<p><b style="color:red;">Aplications & Services</b><p>
+	<div id="con-box">
+	<div class="container-right-2">
+	<p style=" color:#485551; margin-top:-5px;font-size:100%;width:350px;"><b>Mechanical Heat Transfer Device</b></p>
+	<div class="mrg">
+	<p style="margin-left :10px;font-size:100%;color:#485551;"><b>Petrolium Test Instrument.</b><br> 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flammability. <br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destilation.<br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuel Testing.<br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lubricants Testing.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bitumen & Wax Testing.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetration Texture Testing.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General Web Equipment.  </p>
+	<p style="margin-left :10px;font-size:100%;color:#485551;"><b>Soot Blower.</b> <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleaning Systems for Heating <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Reaction Surface.
 	</div>
-	 
-	<div id="footer">
-		<div class="copy">
-			Copyright &copy; 2013 Heat Transfer Solution<br /> All Rights Reserved<br />
-			<a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
-		</div>
-		<div class="dots">
-			<span>PT. Benua Cakra Petrolindo</span>
-			<p>Kompleks Roxy Mas Blok D5 No. 3<br /> Jakarta - 14250</p>
-		</div>
-		<div class="tel">
-			<span>Tel/Fax : +62(800)123-4567<br /> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp; +62(800)123-1234</span>
-			<p >&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; E-mail : <a href="#">becap@becap.com</a></p>
-		</div>
+	<div class="mrg2">
+	<p style="margin-left :60px;font-size:100%;color:#485551;"><b>Combust on Equipment.</b><br> 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industrial Burner. <br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flame Scanner.<br></p>
+	
+	<p style="margin-left :60px;font-size:100%;color:#485551;"><b>Gas Analyzer.</b> <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emissions Monitoring. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speciality Gases and Chemicals.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food & Beverage and Monitoring.<br> 
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Separation.<br> 
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPH Semiconductor MFR <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powergenerator.<br> 
+	</p>
+	<p style="margin-left :60px;font-size:100%;color:#485551;"><b>Plant Performance & Effeciensi Assessment, Installation, Commisioning & Training, Calibration & Troubleshooting, Overhaul and Maintenance.</b> <br>
+	
 	</div>
+	
+	</div>
+	
+	</div>
+	<p><b style="color:red; ">Client Industry</b><p>
+	<div id="kanan1">
+	<p style="margin :5px 0 0 10px;font-size:100%;color:#485551;"><b>Refenery.</b> </p>
+	<p style="margin :1px 0 0 10px;font-size:100%;color:#485551;"><b>Oil and Gas.</b> </p>
+	<p style="margin :1px 0 0 10px;font-size:100%;color:#485551;"><b>Power.</b> </p>
+	<p style="margin :1px 0 0 10px;font-size:100%;color:#485551;"><b>Petrochemical.</b> </p>
+	<p style="margin :1px 0 0 10px;font-size:100%;color:#485551;"><b>Cement.</b> </p>
+	<p style="margin :-115px 0 0 130px;font-size:100%;color:#485551;"><b>Fertilizer.</b> </p>
+	<p style="margin :0px 0 0 130px;font-size:100%;color:#485551;"><b>Gas Producers.</b> </p>
+	<p style="margin :0px 0 0 130px;font-size:100%;color:#485551;"><b>Food and Beverage.</b> </p>
+	<p style="margin :0px 0 0 130px;font-size:100%;color:#485551;"><b>Pulp and Paper.</b> </p>
+	<p style="margin :0px 0 25px 130px;font-size:100%;color:#485551;"><b>Palm Industry.</b></p>
+	</br>
+	</div>
+	<p style="margin :-40px 0 0 280px" ><b style="color:red; ">Achievements.</b> </p>
+	<div id="kanan2">
+	
+	
+	<p style="margin :10px 0 0 10px;font-size:100%;color485551;"><img style="width:80px;"src="logo/sertifikat-csms.png" alt="" /> <br></p>
+	<p style="margin :-60px 0 0 95px;font-size:80%;color:#485551;">Certificate Safety Management (CSMS) from Pertamina <br></p>
+	</br>
+	
+	
+	</div>
+	</br>
+	</br>
+	
+	</div>
+	<!---->
+	
+	
+	</br>
+	</br>
+	</br>
+	<p style=" margin: 3em 0 0 0;float:right;font-size:95%;color #485551 text-indent:50px;"><b style="color:#077759; text-indent:50px;">PT. Benua Cakra Petrolindo</b></br> 
+	Kompleks Roxy Mas Blok D5 No. 3<br>
+	Jakarta 10150, Indonesia<br>
+	Email:becap@becap.com<br>
+	</p>
+	<p style=" margin: 3em 0 0 21em;float:left;font-size:100%;color #485551;"><img style="width:200px;"src="logo/logo-footer.jpg"  /> <br></p>
+	
+	<div class="divfooter">
+	<p style="float:left;">Copyright@2013 PT. Benua Cakra Petrolindo</p>
+	<p style="float:right;"><a style="text-decoration:none;" href="">Home</a> | <a  style="text-decoration:none;" href="">Contact Us</a></p>	<br>
+</div>
 </body>
 </html>
