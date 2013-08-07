@@ -76,21 +76,26 @@
 }
 
  #content {
-	margin: 40px 0 0 240px;
+	margin: 40px 0 20px 240px;
 	width:1000px;
+	height:350px;
 	padding: 0 50px 50px;
 	background-color: #fff;
 	}
 	
  #content_1 {
-    margin: 320px 10px 0px -250px;
+    margin: -100px 10px 0px 240px;
 	width:1000px;
 	padding: 0 50px 50px;
 	background-color: #fff;
-	border-bottom:2px  solid #B3B3B3; 
-    border-top: 2px solid #B3B3B3; 
-	border-left:2px solid #B3B3B3;
-	border-right:2px solid #B3B3B3;
+	height: 270;
+	  }
+	  
+  #content_2 {
+    margin: 250px 10px 0px 280px;
+	width:1000px;
+	padding: 0 50px 50px;
+	background-color: #fff;
 	height: 270;
 	  }
 	  
@@ -282,7 +287,28 @@ div.desc
   margin: 2px;
 }
 
+#con-box8 {
+	padding:0px;
+	margin:40px 0 0 -40px;
+	width:430px;
+	height:140px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
+}
+#con-box9 {
+	padding:0px;
+	margin:-142px 0 0 412px;
+	width:430px;
+	height:140px;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}	
 	
 	
 	
@@ -334,8 +360,10 @@ div.desc
 	<img src="logo/ourclient/paper.jpg" alt="ourclient" width="200" height="270"></a>
 
 	</div>
+	</div>
 	
-	</br>
+	<div id="content_1">
+	
 	<p style="color:red;font-size:120%;float:left;margin-left:5px; font-weight: strong;"> <b>OIL & REFENERY </b></p>
 	<p style="color:red;font-size:120%;float:left;margin-left:91px; font-weight: strong;"> <b>GAS PRODUCERS </b></p>
 	<p style="color:red;font-size:120%;float:left;margin-left:85px; font-weight: strong;"> <b> PETROCHEMICAL </b></p>
@@ -355,16 +383,22 @@ div.desc
 	<div class="img">
 	<img src="logo/ourclient/Fertilizer.jpg" alt="ourclient" width="200" height="270"></a>
 	</div>
-			
+	</div>	
+	
 	</br>
-	<p style="color:red;font-size:120%;float:left;margin-left:5px; font-weight: strong;"> <b>OIL & REFENERY </b></p>
-	<p style="color:red;font-size:120%;float:left;margin-left:180px; font-weight: strong;"> <b>GAS PRODUCERS </b></p>
+	
+	
+	<div id="content_2">
 	</br>
-	<div class="img2">
+	<p style="color:red;font-size:120%;float:left;margin-left:-40px; font-weight: strong;"> <b>FOOD AND BEVERAGE </b></p>
+	<p style="color:red;font-size:120%;float:left;margin-left:280px; font-weight: strong;"> <b>LABORATORY SERVICE</b></p>
+
+	
+	<div id="con-box8">
 	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/food.jpg" alt="Becap"></a></p>
 	</div>
 	
-	<div class="img2">
+	<div id="con-box9">
 	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/lab-service.jpg" alt="Becap"></a></p>
 	</div>
 	
@@ -373,7 +407,7 @@ div.desc
 	
 	</br>
 	
-	<p style=" margin: 3em 0 0 0;float:right;font-size:95%;color #485551 text-indent:50px;"><b style="color:#077759; text-indent:50px;">PT. Benua Cakra Petrolindo</b></br> 
+	<p style=" margin: 3em 200px 0 -50px;float:right;font-size:95%;color #485551 text-indent:50px;"><b style="color:#077759; text-indent:50px;">PT. Benua Cakra Petrolindo</b></br> 
 	Kompleks Roxy Mas Blok D5 No. 3<br>
 	Jakarta 10150, Indonesia<br>
 	Email:becap@becap.com<br>
