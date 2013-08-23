@@ -65,6 +65,16 @@ color:#7A7A7A;
       background-color: #069;
       margin: 0em 0 -6em 0; }
 	
+	
+	li.ind {
+	text-indent :0px;
+	text-decoration:none;
+	list-style:none;
+	border-bottom:1px  solid #B3B3B3;
+	width :200px;
+	margin-left:-20px;
+	font-size:90%;
+	}
 
 #divLine
 {
@@ -82,7 +92,7 @@ color:#7A7A7A;
  #content {
 	margin: -1200px 0 0 276px;
 	width:804px;
-	height:650px;
+	height:850px;
 	padding: 0 50px 50px;
 	background-color: #fff;
 	}
@@ -189,7 +199,8 @@ width:268px;
 	    
 	  
 	  .mrg{
-	  margin:2px
+	  margin-left:280px;
+	  margin-top:-815px;
 	  }
 	.mrg2{
 	   margin:-270px 0 0 200px;
@@ -290,6 +301,10 @@ column-rule:3px outset #ff00ff;
 	color: #0d0c0c;
 	
 	}
+	img.grsbawah {
+		border-bottom:5px  solid #59d0e2;
+		
+			}
 </style>
 </head>
 
@@ -300,7 +315,7 @@ column-rule:3px outset #ff00ff;
    <img style="margin:5em 0em -2px -50px;" src="logo/logo-becap.png" alt="Becap"></a>
    <!-- Here's all it takes to make this navigation bar. -->
    <ul id="nav">
-     <li><a style="background-color:red;color:white;" href="">Home</a></li>
+     <li><a style="background-color:red;color:white;" href="index.php">Home</a></li>
 		<li><a  href="product.php">Products</a></li>
         <li><a  href="service.php">Services</a>	</li>
 		<li><a  href="ourclient.php">Our Clients</a></li>
@@ -310,73 +325,87 @@ column-rule:3px outset #ff00ff;
    </ul>
   </div> 
   </div>
-   <div id="image-rotate">
-		<div id="main-image">
-		
-		</div>
-		<div id="side-images">
-			<div id="up-arrow"><img src="images/up.png" alt="" /></div>
-				<div id="image-1"><a href="#"><img src="images/1.jpg" alt="" /><span><img src="images/1s.jpg" alt="" /></span></a></div>
-				<div id="image-2"><a href="#"><img src="images/2.jpg" alt="" /><span><img src="images/2s.jpg" alt="" /></span></a></div>
-				<div id="image-3"><a href="#"><img src="images/3.jpg" alt="" /><span><img src="images/3s.jpg" alt="" /></span></a></div>
-				<div id="image-4"><a href="#"><img src="images/4.jpg" alt="" /><span><img src="images/4s.jpg" alt="" /></span></a></div>
-				
-			<div id="down-arrow"><img src="images/down.png" alt="" /></div>
-		</div>
-	</div>
-	<div id="divLine">
+   	<div id="divLine">
 	<p id="line"></p>
 	</div>
 	
 	<div id="content">
 	
-	<h3 class="about"><b style="color:red;">About</b> <b style="color:#077759;">BECAP</b></h3>
+	<h3 class="about" style="color:red;">Services </h3>
 	<p style=" color:#485551;font-size:90%;width:250px;">
-		We are company Specializing in energy conservation and heat transfer, We provide the customer with very highly
-	    up to date heat transfer and effeciency equipment, provide solutions and services in the petrochemical, oil and gas industry.
+	We can offer both on site and off site servicing, repairing and maintenance of many heat exchange related products in addition to custom designed products to suit your requirements
 	</p>
-	<p><b style="color:red;">Our Vision</b><p>
-	<p style=" color:#485551;;font-size:90%;width:250px;">
-		To Become a World Leader in Performance Maintenance Service Solutions, Achieving Benefit and Growing Together.
+	<p style="color:red; width: 250px;"><b >Offers the most we did in the sector</b><p>
+	<p style=" color:#485551;font-size:90%;width:250px;text-indent:-15px;">
+			
+		<ul>
+		<li class="ind";>Mechanical Heat Transfer Device </li>
+		<li class="ind";>Petrolium Test Instrument</li>
+		<li class="ind";>Soot Blower</li>
+		<li class="ind";>Combust on Equipment </li>
+		<li class="ind";>Gas Analyzer </li>
+		<li class="ind";>Plant Performance & Effeciensi Assessment, Installation, Commisioning & Training, Calibration & Troubleshooting, Overhaul and Maintenance </li>
+		</ul>
 	</p>
-	<p><b style="color:red;">Our Mision</b><p>
-	<p style=" color:#485551; ;font-size:90%;width:250px;">
-		Customer Satisfaction, Safety, Reliability and Benefit.
-	</p>
+	
 	
   
 
 
 	<div id="container-right">
-	<h3><b style="color:red;">Aplications & Services</b><h3>
+	
 	<div id="con-box">
 	<div class="container-right-2">
-	<p style=" color:#485551; margin-top:-5px;font-size:90%;width:360px;"><b>Mechanical Heat Transfer Device</b></p>
-	<div class="mrg">
-	<p style="margin-left :10px;font-size:90%;color:#485551;"><b>Petrolium Test Instrument.</b><br> 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flammability. <br>
-	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destilation.<br>
-	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuel Testing.<br>
-	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lubricants Testing.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bitumen & Wax Testing.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetration Texture Testing.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General Web Equipment.  </p>
-	<p style="margin-left :10px;font-size:90%;color:#485551;"><b>Soot Blower.</b> <br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleaning Systems for Heating <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Reaction Surface.
-	</div>
-	<div class="mrg2">
-	<p style="margin-left :60px;font-size:90%;color:#485551;"><b>Combust on Equipment.</b><br> 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industrial Burner. <br>
-	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flame Scanner.<br></p>
-	
-	<p style="margin-left :60px;font-size:90%;color:#485551;"><b>Gas Analyzer.</b> <br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emissions Monitoring. <br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speciality Gases and Chemicals.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food & Beverage and Monitoring.<br> 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Separation.<br> 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPH Semiconductor MFR <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powergenerator.<br> 
+	<p style="color:grey; width: 250px; margin-top:5px;"><b>Mechanical Heat Transfer Device</b><p>
+	<p style="color:#485551;font-size:90%;width:240px; " >
+	<b>
+		 <img  class="grsbawah" style="margin:0em 0em 0px 0px;" src="images/service/mechanical.jpg" alt="Becap">We can rectify the mechanical device heat transfer as needed</a>
+	</b>
 	</p>
-	<p style="margin-left :60px;font-size:90%;color:#485551;"><b>Plant Performance & Effeciensi Assessment, Installation, Commisioning & Training, Calibration & Troubleshooting, Overhaul and Maintenance.</b> <br>
+	</br>
+	<p style="color:grey; width: 250px; margin-top:5px;"><b>Petrolium Test Instrumen</b><p>
+	<p style="color:#485551;font-size:90%;width:240px; " >
+	<b>
+		 <img  class="grsbawah" style="margin:0em 0em 0px 0px;" src="images/service/petrolium.jpg" alt="Becap">We can rectify the Petrolium Test Instrumen device heat transfer as needed</a>
+	</b>
+	</p>
+	
+	</br>
+	<p style="color:grey; width: 250px; margin-top:5px;"><b>Soot Blower</b><p>
+	<p style="color:#485551;font-size:90%;width:240px; " >
+	<b>
+		 <img  class="grsbawah" style="margin:0em 0em 0px 0px;" src="images/service/sootblower.jpg" alt="Becap">We can rectify the Soot Blower device heat transfer as needed</a>
+	</b>
+	</p>
+	
+	
+	
+	
+	
+	<div class="mrg">
+	
+	<p style="color:grey; width: 250px; margin-top:5px;"><b>Combustion</b><p>
+	<p style="color:#485551;font-size:90%;width:240px; " >
+	<b>
+		 <img  class="grsbawah" style="margin:0em 0em 0px 0px;" src="images/service/combustion.jpg" alt="Becap">We can rectify the combustion device heat transfer as needed</a>
+	</b>
+	</p>
+	</br>
+	
+	<p style="color:grey; width: 250px; margin-top:5px;"><b>Gas Analyzer</b><p>
+	<p style="color:#485551;font-size:90%;width:240px; " >
+	<b>
+		 <img  class="grsbawah" style="margin:0em 0em 0px 0px;" src="images/service/gasanalyzer.jpg" alt="Becap">We can rectify the combustion device heat transfer as needed</a>
+	</b>
+	</p>
+	</br>
+	
+	<p style="color:grey; width: 250px; margin-top:25px;"><b>Overhaul</b><p>
+	<p style="color:#485551;font-size:90%;width:240px; " >
+	<b>
+		 <img  class="grsbawah" style="margin:0em 0em 0px 0px;" src="images/service/overhaul.jpg" alt="Becap">We can rectify the gas analyzer device heat transfer as needed</a>
+	</b>
+	</p>
 	
 	</div>
 	
@@ -390,31 +419,7 @@ column-rule:3px outset #ff00ff;
 	</div>
 	
 	</div>
-	<h3 style="margin :40px 0 -20px 0"><b style="color:red; ">Client Industry</b><h3>
-	<h3 style="margin :-40px 0 8px 270px;" ><b style="color:red; ">Achievements</b></h3>
-	<div id='con-box8'>
-	<p style="margin:10px 0 -15px 0; text-indent: 5px;font-size:15px;color:#485551; "><b>Achievements.</b> </p>
-	<p style="margin:10px 0 -15px 0; text-indent: 5px;font-size:15px;color:#485551; "><b>Refenery.</b> </p>
-	<p style="margin:10px 0 -15px 0; text-indent: 5px;font-size:15px;color:#485551;"><b>Oil and Gas.</b> </p>
-	<p style="margin:10px 0 -15px 0; text-indent: 5px;font-size:15px;color:#485551;"><b>Power.</b> </p>
-	<p style="margin:10px 0 -15px 0; text-indent: 5px;font-size:15px;color:#485551;"><b>Petrochemical.</b> </p>
-	<p style="margin:10px 0 -15px 0;; text-indent: 5px;font-size:15px;color:#485551;"><b>Cement.</b> </p>
-	<p style="margin:-90px 0 0 -15px; text-indent: 135px;font-size:15px;color:#485551;"><b>Fertilizer.</b> </p>
-	<p style="margin:0px 0 0 -15px; text-indent: 135px;font-size:15px;color:#485551;"><b>Gas Producers.</b> </p>
-	<p style="margin:0px 0 0 -15px; text-indent: 135px;font-size:15px;color:#485551;"><b>Food and Beverage.</b> </p>
-	<p style="margin:0px 0 0 -15px; text-indent: 135px;font-size:15px;color:#485551;"><b>Pulp and Paper.</b> </p>
-	<p style="margin:0px 0 0 -15px; text-indent: 135px;font-size:15px;color:#485551;"><b>Palm Industry.</b></p>
 	
-	
-	
-	</br>
-		
-	<div id="con-box9">
-	
-	<p style="margin:5px 0 0 5px;font-size:90%;color485551;"><img style="width:80px;"src="logo/sertifikat-csms.png" alt="" /> </a><br></p>
-	<p style="margin :-45px 0 0 85px; ;font-size:85%;color:#485551;">Certificate Safety Management (CSMS) from Pertamina <br></p>
-		
-	</div>
 	
 	</div>
 	</div>

@@ -6,6 +6,8 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>	
 <script type="text/javascript" src="js/scroll.js"></script>
 <link rel="stylesheet" href="css/img-slider.css">
+<link rel="stylesheet" href="css/custom.css">
+
 <link rel="shortcut icon" href="logo/favicon.ico" />
 <style>
    /* Begin Navigation Bar Styling */
@@ -40,84 +42,110 @@ color:#7A7A7A;
    
    /* This is just styling for this specific page. */
    body {
-      background-color: #ddd;position: absolute; 
+     
+	   background-color: #ddd;position: absolute; 
       font: small/1.3 Arial, Helvetica, sans-serif; }
+	  
+	  
+	  
+	  
+	  
 	#content-top {
 	margin: 0px 0 0 0px;
 	width:804px;
 	padding: 0 50px 50px;
 	background-color: #fff;
-	}
-	#wrap {
+	  
+	  
+	  }
+   #wrap {
       width: 645px;
       margin: 0 0 -25px 276px;
       background-color: #ddd; }
-     h1 {
+       }
+   h1 {
       font-size: 1.5em;
       color: #fff;
       background-color: #069;
-      margin: 6em 0 -6em 0; }
-	
-	#divLine
-	{
+      margin: 6em 0 -6em 0; 
+	  width:  550px;
+	  text-indent:10px;
+	  margin-left:305px;
+	  font-family: times new roman,calibri, Sans;
+	  }
+ h3 {
+   color:#485551;font-size:90%;text-indent:10px;
+   vertical-align: justify;
+   
+  }
+ 
+
+ 
+ 
+#divLine
+{
 	margin-left: 275px;
     margin-right: auto;
     margin-top: 3px;
-   
-	font-family: Verdana,sans;
+   	font-family: Verdana,sans;
     font-size: 18px;
 	color: #1C2A47;
 	width:  905px;
 	border-top: solid 0px #B3B3B3;
 	font-weight: strong;
 }
-.divfooter
+
+
+#divLine-left
 {
-	
+	margin-left: 8px;
     margin-right: auto;
-    margin-top: 5em;
+    margin-top: 10px;
+    margin-bottom: auto;
+	color: #1C2A47;
+	width:  300px;
+	border-bottom:1px  solid #B3B3B3; 
+
+	font-weight: strong;
+}
+
+	.divfooter
+{ margin-left: 275px;
+	margin-right: auto;
+    margin-top: 0em;
    	font-family: Tahoma, Verdana, Sans;
     font-size: 12px;
 	color: #1C2A47;
-	width: 900px;
+	width: 905px;
 	border-top: solid 1px #B3B3B3;
 	font-weight: bold;
+	background-color: #fff;
 }
-
-
+	
 
  #content {
-	margin: -50px 0 0 276px;
-	width:804px;
+	margin: 0 0 0 275px;
+	width:805px;
+	height:850px;
 	padding: 0 50px 50px;
 	background-color: #fff;
+	font-family:verdana-sans,calibri, Sans;
+	font-size: 15px;
+	
 	}
-
- #oilrefenery {
- margin-top:50px;
- text-indent:-35px;
-  }
-  
- #gasproducers {
- margin-top:-35px;
- text-indent:190px;
-   }
-   
-  #petrochemichal {
- margin-top:-35px;
- text-indent:415px;
-   }
-   #pulpandpapers {
- margin-top:-35px;
- text-indent:645px;
-   }
+	
  #content_1 {
       margin-left:40px;
 	  font-size: 17px;
 	  font-weight: strong;
 	  font-family: calibri, Verdana, Sans;
 	  }
-	  
+#content_top {
+margin: 0px 0 0 0px;
+	width:804px;
+	padding: 0 50px 50px;
+	background-color: #fff;
+	  }
 #container-right {
       margin-left:37em;
 	  margin-top:-390px;
@@ -125,64 +153,62 @@ color:#7A7A7A;
 	  font-weight: strong;
 	  font-family: calibri, Verdana, Sans;
 	  }
+	  
+#con-box-left {
+	margin:10px 0 10px -50px;
+	width:320px;
+	height:700px;
+	border-bottom:0px  solid #B3B3B3; 
+    border-top: 0px solid #B3B3B3; 
+	border-left:0px solid #B3B3B3;
+	border-right:0px solid #B3B3B3;
+	background-color: #ececec;
+}	
+#con-box-left2 {
+	padding:0px;
+	margin:-500px 0 0 190px;
+	width:200px;
+	border-bottom:2px  brik #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
+	
+}
 #con-box {
-	
-	margin:0px 0 0 -35px;
-	width:200px;
-	height:287px;
-	border-bottom:1px  solid #B3B3B3; 
-    border-top: 1px solid #B3B3B3; 
-	border-left:1px solid #B3B3B3;
-	border-right:1px solid #B3B3B3;
-	
-}	
-#con-box1 {
-	
-	margin:-289px 0 10px 190px;
-	width:200px;
-	height:287px;
+	padding:0px;
+	margin:-700px 0 0 305px;
+	width:545px;
 	border-bottom:1px  solid #B3B3B3; 
     border-top: 1px solid #B3B3B3; 
 	border-left:1px solid #B3B3B3;
 	border-right:1px solid #B3B3B3;
 	
 }
-#con-box2 {
+#con-box-servomex {
 	padding:0px;
-	margin:-299px 0 0 415px;
-	width:200px;
-	height:287px;
+	margin:30px 0 0 305px;
+	width:545px;
 	border-bottom:1px  solid #B3B3B3; 
     border-top: 1px solid #B3B3B3; 
 	border-left:1px solid #B3B3B3;
 	border-right:1px solid #B3B3B3;
 	
 }
-#con-box3 {
-	padding:0px;
-	margin:-289px 0 0 645px;
-	width:200px;
-	height:287px;
-	border-bottom:1px  solid #B3B3B3; 
-    border-top: 1px solid #B3B3B3; 
-	border-left:1px solid #B3B3B3;
-	border-right:1px solid #B3B3B3;
-	}
 
-#con-box4 {
+#con-box-greencmbs {
 	padding:0px;
-	margin:40px 0 0 -35px;
-	width:200px;
+	margin:30px 0 0 305px;
+	width:545px;
 	border-bottom:1px  solid #B3B3B3; 
     border-top: 1px solid #B3B3B3; 
 	border-left:1px solid #B3B3B3;
 	border-right:1px solid #B3B3B3;
 	
 }	
-#con-box5 {
+#con-box-clyde {
 	padding:0px;
-	margin:-313px 0 0 190px;
-	width:200px;
+	margin:30px 0 0 305px;
+	width:545px;
 	border-bottom:1px  solid #B3B3B3; 
     border-top: 1px solid #B3B3B3; 
 	border-left:1px solid #B3B3B3;
@@ -193,20 +219,20 @@ color:#7A7A7A;
 	padding:0px;
 	margin:-313px 0 0 415px;
 	width:200px;
-	border-bottom:1px  solid #B3B3B3; 
-    border-top: 1px solid #B3B3B3; 
-	border-left:1px solid #B3B3B3;
-	border-right:1px solid #B3B3B3;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
 }
 #con-box7 {
 	padding:0px;
 	margin:-313px 0 0 645px;
 	width:200px;
-	border-bottom:1px  solid #B3B3B3; 
-    border-top: 1px solid #B3B3B3; 
-	border-left:1px solid #B3B3B3;
-	border-right:1px solid #B3B3B3;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
 }
 
@@ -215,10 +241,10 @@ color:#7A7A7A;
 	margin:40px 0 0 -40px;
 	width:430px;
 	height:140px;
-	border-bottom:1px  solid #B3B3B3; 
-    border-top: 1px solid #B3B3B3; 
-	border-left:1px solid #B3B3B3;
-	border-right:1px solid #B3B3B3;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
 }
 #con-box9 {
@@ -226,10 +252,10 @@ color:#7A7A7A;
 	margin:-142px 0 0 412px;
 	width:430px;
 	height:140px;
-	border-bottom:1px  solid #B3B3B3; 
-    border-top: 1px solid #B3B3B3; 
-	border-left:1px solid #B3B3B3;
-	border-right:1px solid #B3B3B3;
+	border-bottom:2px  solid #B3B3B3; 
+    border-top: 2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3;
+	border-right:2px solid #B3B3B3;
 	
 }
 
@@ -278,10 +304,11 @@ width:268px;
 	  
 	  
 	   
-	#kanan1 { height:24px;
+	#kanan1 { 
+				height:24px;
 				background-color:#d5e5e4;
 				float:left;
-				width:905px; 
+				width:906px; 
 				margin-top:-18px;
 				border-bottom:0px  solid #B3B3B3; 
 				border-top: 0px solid #B3B3B3; 
@@ -289,6 +316,8 @@ width:268px;
 				border-right:0px solid #B3B3B3;
 				
 				font-family:verdana-sans,calibri, Sans;font-size: 80%;
+				text-indent:5px;
+				
 				}   
 				
 	#kanan2 { height:150px; 
@@ -301,8 +330,11 @@ width:268px;
 				border-top: 2px solid #B3B3B3; 
 				border-left:2px solid #B3B3B3;
 				border-right:2px solid #B3B3B3;} 
+				
+	}
+	
 	#box-footer { 
-	margin-left: 276px;
+	margin-left: 30em;;
 	border-bottom:1px  solid #fff; 
 	border-top: 1px solid #fff; 
 	border-left:1px solid #fff;
@@ -310,8 +342,9 @@ width:268px;
 	width:  902px;
 	background-color: #fff;
 	}
-				
-	}
+	
+	
+	
 	a:link {
 	
 	color:#0d0c0c;
@@ -330,7 +363,7 @@ width:268px;
 </style>
 </head>
 
-<body class="custom">
+<body class="">
 
 <div id="wrap">
    <div id="content-top">
@@ -355,96 +388,105 @@ width:268px;
 	
 	
 	
-	
 	<div id="content">
 	
-	<div id="oilrefenery">
-	<p style="color:red;font-size:120%; font-weight: regular;"> <b>OIL & REFENERY </b></p>
-	</div>
-	<div id="gasproducers">
-	<p style="color:red;font-size:120%; font-weight: regular;"> <b>GAS PRODUCERS </b></p>
-	</div>
-	<div id="petrochemichal">
-	<p style="color:red;font-size:120%; font-weight: regular;"> <b> PETROCHEMICAL </b></p>
-	</div>
+	</br>
 	
-	<div id="pulpandpapers">
-	<p style="color:red;font-size:120%; font-weight: regular;"> <b> PULP AND PAPERS </b></p>
-	</div>
 	
-	<div id="con-box">
-	<img src="logo/ourclient/oil-gas.jpg" alt="Becap"></a>
+	<div id='con-box-left'>
+	<div id="divLine-left">
+	</br>
+	<p style="margin-top:20px;margin-left:10px;color:#485551;font-size:95%;width:300px;">Every application comes with its own set of requirements and challenges. By offering a comprehensive collection of heat transfer technologies, BECAP Heat Transfer can select the product design that best fits your requirements, without forcing a solution due to limited product scope.<p>
 	
 	</div>
+	<div id="divLine-left">
+	<p style="margin-left:10px;color:#485551;font-size:95%;width:300px;"><b>Our company provides the following laboratory equipment and other products : </b></br>
 	
-	<div id="con-box1">
-	<img src="logo/ourclient/gas-producers.jpg" alt="Becap"></a>
-	
+	<ul>
+				<li><a style="text-decoration:none;" href="#">Petrotest</a></li>
+				<li><a style="text-decoration:none;" href="#">Servomex</a></li>
+				<li><a style="text-decoration:none;" href="#">Greens Combustion</a></li>
+				<li><a style="text-decoration:none;" href="#">Clyde Bergemann</a></li>
+				
+	</ul>
 	</div>
-	
-	<div id="con-box2">
-	<img  src="logo/ourclient/petrochemical.jpg" alt="Becap"></a>
+	</p>
 	
 	</div>
 	
-	<div id="con-box3">
-	<img src="logo/ourclient/paper.jpg" alt="Becap"></a>
+	<h1 style="color:red;font-size:120%;float:left;margin-left:305px; font-weight: regular; margin-top:-705px;">Products</h1>
 	
-	</div>
+	</br>
+	
+	
 	</br>
 
 	
-	<p style="color:red;font-size:120%;float:left;margin-left:-30px; font-weight: strong;"> <b>PALM OIL INDUSTRY </b></p>
-	<p style="color:red;font-size:120%;float:left;margin-left:65px; font-weight: strong;"> <b>CEMENT</b></p>
-	<p style="color:red;font-size:120%;float:left;margin-left:160px; font-weight: strong;"> <b> POWER INDUSTRY </b></p>
-	<p style="color:red;font-size:120%;float:left;margin-left:92px; font-weight: strong;"> <b>FERTILIZER </b></p>
 	
+	<div id="con-box">
+	<h3 > High-tech test equipment for the petrochemical industry </h3>
 	
-	<div id="con-box4">
-	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/palm.jpg" alt="Becap"></a></p>
-	
+	<img style="margin:0px 0 5px 10px;" src="logo/product/Petrotest-Logo.png" alt="Becap"></a>
 	</div>
+	<p style="margin:5px 5px 5px 305px;font-style:italic;">
+		Website Product information : <a style="color:blue;" href="http://www.petrotest.com/" target="_new">http://www.petrotest.com</a>
+	</p>
 	
-	<div id="con-box5">
-	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/cement.jpg" alt="Becap"></a></p>
+	<div id="con-box-servomex">
+	<h3 > <b>As the world expert in gas analysis  </b></h3>
 	
+    <img style="margin:0px 0 5px 10px;" src="logo/product/servomex_Logo.png" alt="Becap"></a>
 	</div>
+	<p style="margin:5px 5px 5px 305px;font-style:italic;">
+	Website Product information : <a style="color:blue;" href="http://www.servomex.com/" target="_new">http://www.servomex.com</a>
+	</p>
 	
-	<div id="con-box6">
-	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/power.jpg" alt="Becap"></a></p>
+	<div id="con-box-greencmbs">
+	<h3 >Specialists focussed on supporting burner and combustion   </h3>
 	
+	<img  style="margin:0px 0 5px 10px;"src="logo/product/green-combustion.png" alt="Becap"></a>
 	</div>
+	<p style="margin:5px 5px 5px 305px;font-style:italic;">
+			Website Product information : <a style="color:blue;" href="http://www.greenscombustion.com" target="_new">http://www.greenscombustion.com</a>
+	</p>
 	
-	<div id="con-box7">
-	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/fertilizer.jpg" alt="Becap"></a></p>
+	<div id="con-box-clyde">
+	<h3>Efficiency by Competence and Technology </h3>
 	
+	<img style="margin:0px 0 5px 10px;" src="logo/product/clydebergemann.png" alt="Becap"></a></p>
 	</div>
-	
+	<p style="margin:5px 5px 5px 305px;font-style:italic;">
+			Website Product information : <a style="color:blue;" href="http://www.clydebergemann.com" target="_new">http://www.clydebergemann.com</a>
+	</p>
 	<br>
-	<p style="color:red;font-size:120%;float:left;margin-left:-30px; font-weight: strong;"> <b>FOOD AND BEVERAGE </b></p>
-	<p style="color:red;font-size:120%;float:left;margin-left:275px; font-weight: strong;"> <b>LABORATORY SERVICE</b></p>
-	<div id="con-box8">
-	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/food.jpg" alt="Becap"></a></p>
-	</div>
 	
-	<div id="con-box9">
-	<p><img style="margin:0em 0em -2px 0em;" src="logo/ourclient/lab-service.jpg" alt="Becap"></a></p>
-	</div>
+	
+	
+	
+	
+	
+	
+
+	
 	
 	</div>
 	<!------footer-------!><!---->
-	
 	<div id="box-footer">
-	<p style=" margin: 0em 5px 0 0;float:right;font-size:85%;color #485551 ;"><b style="color:#077759; ">PT. Benua Cakra Petrolindo</b></br> 
+	
+	<p style=" margin: -60px 5px 0 0;float:right;font-size:85%;color #485551 ;"><b style="color:#077759; ">PT. Benua Cakra Petrolindo</b></br> 
 	Kompleks Roxy Mas Blok D5 No. 3<br>
 	Jakarta 10150, Indonesia<br>
 	Email:becap@becap.com<br>
 	</p>
-	<img style="margin: 0em 0 0 1em;float:left;" src="logo/logo-footer.jpg"  /></a>
+	<img style="margin: -60px 0 0 22em;float:left;" src="logo/logo-footer.jpg"  /></a>
 	<div class="divfooter">
 	<p style="margin: 0em 0 0 5px;float:left;">Copyright@2013 PT. Benua Cakra Petrolindo</p>
 	<p style="margin: 0em 0 0 0;float:right;"><a style="text-decoration:none;" href="">Home</a> | <a  style="text-decoration:none;" href="">Contact Us</a></p>	<br>
 	</div>
 	</div>
+
+	
+	
+
 </body>
 </html>
