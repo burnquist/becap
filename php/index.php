@@ -431,7 +431,7 @@ column-rule:3px outset #ff00ff;
 	Jakarta 10150, Indonesia<br>
 	Email:becap@becap.com<br>
 	</p>
-	<img style="margin: 0em 0 0 1em;float:left;" src="logo/logo-footer.jpg"  /></a>
+	<p><img style="margin: -3em 0 3em 1em;float:left;" src="logo/logo-footer.jpg"  /></a></p>
 	<div class="divfooter">
 	<p style="margin: 0em 0 0 0;text-indent:5px;float:left;">Copyright@2013 PT. Benua Cakra Petrolindo</p>
 	<p style="margin: 0em 0 0 0;float:right;"><a style="text-decoration:none;" href="">Home</a> | <a  style="text-decoration:none;" href="">Contact Us</a></p>	<br>
